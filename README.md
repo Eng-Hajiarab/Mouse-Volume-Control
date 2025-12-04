@@ -18,23 +18,33 @@ Mouse Volume Control یک اسکریپت ساده و کاربردی AutoHotkey v
 ### قابلیت‌ها
 
 - **کنترل Volume با نگه داشتن Right Click + Scroll موس**
-  - Scroll Up → افزایش صدا
-  - Scroll Down → کاهش صدا
-  - OSD ویندوز برای Volume نمایش داده می‌شود
-
-- **Mute / Unmute با فشار همزمان Left + Right Click**
+  - افزایش صدا → Scroll Up 
+  - کاهش صدا → Scroll Down
+- قطع و وصل کردن صدا با فشار همزمان Left + Right Click
   - هر زمان که Left + Right همزمان فشار داده شوند، صدا قطع یا وصل می‌شود
-  - OSD ویندوز نمایش داده می‌شود
+- نمایش روی صفحه (OSD) ویندوز برای Volume
 
-- **Toggle فعال/غیرفعال با Double Middle Click**
+
+-  فعال/غیرفعال کردن اسکریپت با Double Middle Click
   - نمایش پیام وضعیت با ToolTip
-  - نام توسعه‌دهنده در خط دوم نمایش داده می‌شود
 
 - **حفظ عملکرد طبیعی موس**
   - بعد از استفاده از Right Click برای Volume یا Mute، منوی راست کلیک Windows کاملاً طبیعی کار می‌کند
   - قابلیت Selection و Context Menu فایل‌ها و دسکتاپ بدون مشکل
 
 ---
+
+### راهنمای استفاده
+
+| عمل | دستور |
+|-----|-------|
+| افزایش صدا | نگه داشتن Right Click + Scroll Up |
+| کاهش صدا | نگه داشتن Right Click + Scroll Down |
+| Mute / Unmute | فشار همزمان Left + Right Click |
+| فعال/غیرفعال کردن اسکریپت | Double Middle Click |
+
+---
+
 
 ### پیش‌نیازها
 
@@ -73,17 +83,6 @@ Mouse Volume Control یک اسکریپت ساده و کاربردی AutoHotkey v
 - این روش روی **ویندوز 7، 8، 10 و 11** کار می‌کند.
 - اگر از فایل `.ahk` استفاده می‌کنید، مطمئن شوید **AutoHotkey نصب شده باشد**.
 
-
----
-
-### راهنمای استفاده
-
-| عمل | دستور |
-|-----|-------|
-| افزایش صدا | نگه داشتن Right Click + Scroll Up |
-| کاهش صدا | نگه داشتن Right Click + Scroll Down |
-| Mute / Unmute | فشار همزمان Left + Right Click |
-| فعال/غیرفعال کردن اسکریپت | Double Middle Click |
 
 ---
 
@@ -144,7 +143,6 @@ MIT License © 2025 ENG.HajiArab
 
 - **Toggle script On/Off with Double Middle Click**
   - Status message displayed via ToolTip
-  - Developer name displayed on the second line
 
 - **Natural mouse behavior preserved**
   - After using Right Click for volume or mute, the Windows context menu works normally
