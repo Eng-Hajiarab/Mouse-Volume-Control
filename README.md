@@ -156,15 +156,29 @@ MIT License © 2025 ENG.HajiArab
 - [AutoHotkey v1.1.37.02](https://www.autohotkey.com/) installed
 
 ---
-
 ### Installation & Usage
 
-1. **Download the file** `Mouse Volume Control.ahk` from GitHub
-2. **Install AutoHotkey** if not already installed
-3. **Run the .ahk file** by double-clicking
-4. The script will appear in the **System Tray** and be ready to use
+#### Method 1: Without Installing AutoHotkey
+1. **Run the file `Mouse Volume Control.exe`** by double-clicking it.
+2. The script will appear in the **System Tray** and be ready to use.
 
-> Tip: To run automatically on system startup, place the .ahk file in the Windows `Startup` folder.
+> **Note:** To run the program automatically on system startup, place a **shortcut of the file `Mouse Volume Control.exe`** in the Windows Startup folder.  
+> Startup folder path:  
+> ```text
+> Win + R → shell:startup
+> ```
+
+#### Method 2: With AutoHotkey Installed
+1. **Download the file** `Mouse Volume Control.ahk` from GitHub.
+2. **Install AutoHotkey** if it is not already installed.
+3. **Run the file `Mouse Volume Control.ahk`** by double-clicking it.
+4. The script will appear in the **System Tray** and be ready to use.
+
+> **Note:** To run the program automatically on system startup, place a **shortcut of the file `Mouse Volume Control.ahk`** in the Windows Startup folder.  
+> Startup folder path:  
+> ```text
+> Win + R → shell:startup
+> ```
 
 ---
 
